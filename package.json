@@ -1,0 +1,10 @@
+{
+  "name": "crypto-sidekick",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "requirejs": "^2.3.5",
+    "text": "requirejs/text"
+  }
+}
