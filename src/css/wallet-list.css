@@ -1,0 +1,60 @@
+#wallet-list ul {
+    list-style-type: none;
+    width:100%;    
+}
+#wallet-list ul li{
+    height:84px;
+    width:100%;
+    border-bottom:solid 1px white;
+}
+#wallet-list .icon{
+    display: inline-block;
+    margin-left:12px;
+    margin-top:12px;
+    font-weight: bold;
+}
+#wallet-list .details{
+    display: inline-block;
+    vertical-align: top;
+    margin-top:24px;
+    color:#ffffff;
+}
+#wallet-list .title {
+    display: inline-block;
+    font-size: 1em;
+    margin-bottom: 0.4em;
+    vertical-align: top;
+    width: 279px;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 1.2em;
+}
+#wallet-list .address{
+    font-size: 0.7em;
+}
+#wallet-list ul li:hover > .icon,
+#wallet-list ul li:hover .details{
+    display:none;
+}
+#wallet-list .options{
+    display: none;
+    width:100%;
+    text-align: right;
+}
+#wallet-list .options > div{
+    display: inline-block;
+    margin-right:19px;
+    background-color: #45A1BF;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top:12px;
+    overflow: hidden;
+}
+#wallet-list ul li:hover .options{
+    display:inline-block;
+}
+#wallet-list ul li .options > div:hover{
+    background-color: #ffffff;
+    color: #007ea8;
+    cursor: pointer;
+}

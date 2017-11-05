@@ -8,16 +8,109 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+  <link rel="stylesheet" href="css/reset.css?v=1.0">
   <link rel="stylesheet" href="css/main.css?v=1.0">
+  <link rel="stylesheet" href="css/icons.css?v=1.0">
+  <link rel="stylesheet" href="css/wallet-list.css?v=1.0">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
 </head>
 
 <body>
 
-testing testing 123
-<script data-main="scripts/main" src="scripts/require.js"></script>
+  <div id="appbody">
+    <h1 class="long-shadow">Sidekick</h1>
+    <div id="partition"><div class="arrow-down"></div>
+    <div id="content">
+      <div id="first-view">
+      </div>
+      <div id="wallet-list">
+        <ul>
+          <li>
+            <div class="icon circle" title="Power Ledger">POWR</div>
+            <div class="details">
+              <div class="title">My JAXX Macbook Pro Wallet</div>
+              <div class="address">0x9deaecd89378d27e561682fad30f3469fdaa4224</div>
+            </div>
+            <div class="options">
+              <div class="circle" title="copy to clipboard"><span class="wa-icon wa-icon-clipboard"></div>
+              <div class="circle" title="view info"><span class="wa-icon wa-icon-information-button"></div>
+              <div class="circle" title="edit"><span class="wa-icon wa-icon-pencil"></span></div>
+              <div class="circle" title="delete"><span class="wa-icon wa-icon-trash"></span></div>
+            </div>
+          </li>
+          <li>
+            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32">
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="16" cy="16" r="16" fill="#F7931A"/>
+                <path fill="#FFF" fill-rule="nonzero" d="M23.1889526,14.0201846 C23.5025526,11.9239385 21.9064911,10.7970462 19.7240911,10.0452923 L20.4320295,7.20566154 L18.7035372,6.77489231 L18.0143065,9.53969231 C17.5599065,9.42646154 17.0931988,9.31963077 16.6294449,9.21378462 L17.3235988,6.43076923 L15.5960911,6 L14.8876603,8.83864615 C14.5115372,8.75298462 14.1423065,8.66830769 13.7839065,8.5792 L13.7858757,8.57033846 L11.4021218,7.97513846 L10.9423065,9.82129231 C10.9423065,9.82129231 12.224768,10.1152 12.1976911,10.1334154 C12.8977526,10.3081846 13.0242757,10.7714462 13.0031065,11.1387077 L12.1967065,14.3736615 C12.2449526,14.3859692 12.3074757,14.4036923 12.3763988,14.4312615 C12.3187988,14.4169846 12.2572603,14.4012308 12.1937526,14.3859692 L11.0634142,18.9176615 C10.9777526,19.1303385 10.7606449,19.4493538 10.2712911,19.3282462 C10.2885218,19.3533538 9.01492185,19.0146462 9.01492185,19.0146462 L8.15682954,20.9932308 L10.4061834,21.5539692 C10.8246449,21.6588308 11.2347372,21.7686154 11.6384295,21.872 L10.9231065,24.7441231 L12.6496295,25.1748923 L13.3580603,22.3332923 C13.8296911,22.4612923 14.2875372,22.5794462 14.7355372,22.6907077 L14.029568,25.5190154 L15.7580603,25.9497846 L16.4733834,23.0830769 C19.4208295,23.6408615 21.6371988,23.4158769 22.5701218,20.7500308 C23.3218757,18.6035692 22.5327065,17.3654154 20.9819372,16.5580308 C22.1112911,16.2976 22.9619988,15.5547077 23.1889526,14.0201846 L23.1889526,14.0201846 Z M19.2396603,19.5581538 C18.7055065,21.7046154 15.0914757,20.5442462 13.9197834,20.2532923 L14.8689526,16.4482462 C16.0406449,16.7406769 19.7979372,17.3196308 19.2396603,19.5581538 Z M19.7743065,13.9891692 C19.2869218,15.9416615 16.2789218,14.9496615 15.303168,14.7064615 L16.1637218,11.2553846 C17.1394757,11.4985846 20.2818757,11.9524923 19.7743065,13.9891692 Z"/>
+              </g>
+            </svg></div>
+            <div class="details">
+              <div class="title" title="Tom's ETH Wallet that I can send him coins for beer">Tom's ETH Wallet that I can send him coins for beer</div>
+              <div class="address">0x9deaecd89378d27e561682fad30f3469fdaa4224</div>
+            </div>
+            <div class="options">
+              <div class="circle">copy</div>
+              <div class="circle">info</div>
+              <div class="circle">edit</div>
+              <div class="circle">trash</div>
+            </div>
+          </li>
+          <li>
+            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32">
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="16" cy="16" r="16" fill="#00AAE4"/>
+                <path fill="#FFF" fill-rule="nonzero" d="M21.9607258,18.2052162 C21.2704736,17.7969333 20.4931636,17.6785975 19.72322,17.6510528 C19.0772398,17.6279439 18.1134664,17.2038822 18.1134664,16.0000561 C18.1134664,15.1031305 18.8232218,14.381284 19.7235503,14.3490781 C20.4934296,14.3215335 21.2706662,14.2030473 21.9607258,13.7949054 C23.6744127,12.7813518 24.4303642,10.6536481 23.7535615,8.74878382 C23.0767587,6.84391954 21.1625926,5.71182285 19.2138715,6.06387171 C17.2651504,6.41592057 15.844464,8.15047962 15.8445318,10.1776004 C15.8445318,10.9869018 16.1255112,11.7316599 16.4840354,12.4224094 C16.7855729,13.003375 16.9381306,14.0816573 15.9039403,14.6933064 C15.1346205,15.148324 14.1744982,14.8602095 13.6949279,14.0739512 C13.2898383,13.4098535 12.8008283,12.7876133 12.1161904,12.3826101 C10.4025323,11.3690578 8.22587264,11.7622312 6.95394542,13.3150745 C5.68201819,14.8679178 5.68201819,17.132138 6.95394542,18.6849813 C8.22587264,20.2378246 10.4025323,20.630998 12.1161904,19.6174457 C12.8006356,19.2125929 13.2896915,18.5907567 13.6945242,17.9270632 C14.0269586,17.3820626 14.8572188,16.687366 15.9039036,17.3068904 C16.6720491,17.7615509 16.909518,18.7576974 16.4836776,19.5782009 C16.1252085,20.268847 15.8445868,21.0134453 15.8445868,21.8226058 C15.8445899,23.8496762 17.2652865,25.5841471 19.2139666,25.9361447 C21.1626466,26.2881423 23.0767458,25.1560486 23.7535191,23.2512269 C24.4302925,21.3464052 23.6743624,19.2187583 21.9607258,18.2052162 Z"/>
+              </g>
+            </svg>
+            </div>
+            <div class="details">
+              <div class="title">title</div>
+              <div class="address">0x9deaecd89378d27e561682fad30f3469fdaa4224</div>
+            </div>
+            <div class="options">
+                <div class="circle">copy</div>
+                <div class="circle">info</div>
+                <div class="circle">edit</div>
+                <div class="circle">trash</div>
+              </div>
+          </li>
+          <li>
+            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32">
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="16" cy="16" r="16" fill="#627EEA"/>
+                <g fill="#FFF" fill-rule="nonzero" transform="translate(9 4)">
+                  <polygon fill-opacity=".602" points="7.498 0 7.498 8.87 14.995 12.22"/>
+                  <polygon points="7.498 0 0 12.22 7.498 8.87"/>
+                  <polygon fill-opacity=".602" points="7.498 17.968 7.498 23.995 15 13.616"/>
+                  <polygon points="7.498 23.995 7.498 17.967 0 13.616"/>
+                  <polygon fill-opacity=".2" points="7.498 16.573 14.995 12.22 7.498 8.872"/>
+                  <polygon fill-opacity=".602" points="0 12.22 7.498 16.573 7.498 8.872"/>
+                </g>
+              </g>
+            </svg>
+            </div>
+            <div class="details">
+              <div class="title">title</div>
+              <div class="address">0x9deaecd89378d27e561682fad30f3469fdaa4224</div>
+            </div>
+            <div class="options">
+                <div class="circle">copy</div>
+                <div class="circle">info</div>
+                <div class="circle">edit</div>
+                <div class="circle">trash</div>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+<script src="scripts/main.js"></script>
 </body>
 </html>

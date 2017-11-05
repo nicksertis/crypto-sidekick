@@ -1,0 +1,20 @@
+.wa-icon{
+    background-color: #007ea8;
+    margin-top: 16px;
+    display: inline-block;
+    height:32px;
+    width:32px;
+}
+
+.wa-icon-trash{
+    -webkit-mask-image: url(../icons/webapp-icons/svg/trash.svg);
+}
+.wa-icon-pencil{
+    -webkit-mask-image: url(../icons/webapp-icons/svg/pencil.svg);
+}
+.wa-icon-clipboard{
+    -webkit-mask-image: url(../icons/webapp-icons/svg/clipboard.svg);
+}
+.wa-icon-information-button{
+    -webkit-mask-image: url(../icons/webapp-icons/svg/information-button.svg);
+}

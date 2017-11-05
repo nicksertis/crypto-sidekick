@@ -4,7 +4,11 @@
   "main": "main.js",
   "license": "MIT",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "requirejs": "^2.3.5",
     "text": "requirejs/text"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }

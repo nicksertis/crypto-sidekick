@@ -1,3 +1,58 @@
-body{
-    
+#appbody{
+    background-color: #ffffff;
+    width:360px;
+    height: 600px;
+    overflow: scroll;
+    font-family: Ledger;
+}
+
+#partition{
+    background-color: #007ea8;
+    width:100%;
+    height:100%;
+}
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 24px 180px 0 180px;
+    border-color: #ffffff transparent transparent transparent;
+}
+.long-shadow{
+    text-shadow: rgb(238, 238, 238) 0.676551px 0.676551px 0px, rgb(239, 239, 239) 1.67655px 1.67655px 0px, rgb(240, 240, 240) 2.67655px 2.67655px 0px, rgb(241, 241, 241) 3.67655px 3.67655px 0px, rgb(241, 241, 241) 4.67655px 4.67655px 0px, rgb(242, 242, 242) 5.67655px 5.67655px 0px, rgb(243, 243, 243) 6.67655px 6.67655px 0px, rgb(244, 244, 244) 7.67655px 7.67655px 0px, rgb(244, 244, 244) 8.67655px 8.67655px 0px, rgb(245, 245, 245) 9.67655px 9.67655px 0px, rgb(246, 246, 246) 10.6766px 10.6766px 0px, rgb(247, 247, 247) 11.6766px 11.6766px 0px, rgb(248, 248, 248) 12.6766px 12.6766px 0px, rgb(248, 248, 248) 13.6766px 13.6766px 0px, rgb(249, 249, 249) 14.6766px 14.6766px 0px, rgb(250, 250, 250) 15.6766px 15.6766px 0px, rgb(251, 251, 251) 16.6766px 16.6766px 0px, rgb(251, 251, 251) 17.6766px 17.6766px 0px, rgb(252, 252, 252) 18.6766px 18.6766px 0px, rgb(253, 253, 253) 19.6766px 19.6766px 0px, rgb(254, 254, 254) 20.6766px 20.6766px 0px, rgb(255, 255, 255) 21.6766px 21.6766px 0px;
+}
+.circle{
+    border-radius: 50%;
+    background-color: white;
+    color: #007ea8;
+    height:64px;
+    width:64px;
+    text-align: center;
+    line-height: 4em;
+    overflow: hidden;
+}
+
+h1{
+    font-family: DancingScript;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: #007ea8;
+    padding:0.2em 0px;
+}
+@font-face {
+    font-family: DancingScript;
+    src: url(../fonts/dancingscript/DancingScript-Regular.ttf);
+    font-weight:normal;
+}
+@font-face {
+    font-family: DancingScript;
+    src: url(../fonts/dancingscript/DancingScript-Bold.ttf);
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: Ledger;
+    src: url(../fonts/ledger/Ledger-Regular.ttf);
+    font-weight: normal;
 }

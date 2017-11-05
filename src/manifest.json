@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Crypto Sidekick",
+    "description": "This extension allows the user to store and retrieve crypto-currency wallet addresses.",
+    "version": "1.0",
+  
+    "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "main.html",
+      "default_title": "Crypto Sidekick - Deets"
+    },
+    "permissions": [
+      "activeTab",
+      "storage"
+    ]
+  }
